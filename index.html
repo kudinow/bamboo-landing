@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bamboo — AI-трекер калорий по фото | Похудение, набор массы, контроль диеты</title>
-  <meta name="description" content="Сфотографируй еду — получи точный расчёт калорий и БЖУ за секунду. Худей, набирай массу или придерживайся диеты с Bamboo.">
-  <meta property="og:title" content="Bamboo — AI-трекер калорий по фото">
-  <meta property="og:description" content="Контроль питания стал простым. Сфотографируй еду — AI посчитает калории и БЖУ.">
+  <title>Bamboo — AI Calorie Tracker by Photo | Weight Loss, Muscle Gain, Diet Control</title>
+  <meta name="description" content="Snap a photo of your food — get instant calorie and macro breakdown. Lose weight, gain muscle, or stick to your diet with Bamboo.">
+  <meta property="og:title" content="Bamboo — AI Calorie Tracker by Photo">
+  <meta property="og:description" content="Nutrition tracking made simple. Snap a photo — AI calculates calories and macros.">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="ru_RU">
+  <meta property="og:locale" content="en_US">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,7 +22,7 @@
         <div class="header__logo-icon">🎋</div>
         <span class="header__logo-text"><strong>Bamboo</strong> <span class="header__logo-divider">|</span> <span class="header__logo-tagline">AI calorie tracker</span></span>
       </a>
-      <div class="header__lang">🌐 RU</div>
+      <a href="https://apps.apple.com/" class="header__cta" target="_blank" rel="noopener" data-i18n="header_cta">Download</a>
     </div>
   </header>
 
@@ -31,25 +31,18 @@
       <div class="hero__bg"></div>
       <div class="container hero__inner">
         <div class="hero__content anim-fade" data-anim="fade-up">
-          <div class="hero__badge">AI-powered nutrition tracking</div>
-          <h1 class="hero__title">Питание под контролем —<br>цели становятся <span class="hero__title-accent">ближе</span></h1>
-          <p class="hero__subtitle">Худей, набирай массу или придерживайся диеты — Bamboo делает контроль питания простым</p>
-          <div class="store-buttons">
-            <a href="https://apps.apple.com/" class="store-button store-button--dark" target="_blank" rel="noopener">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-              App Store
-            </a>
-            <a href="https://play.google.com/" class="store-button store-button--dark" target="_blank" rel="noopener">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.77L13.04 12 3.18.23C2.81.6 2.6 1.14 2.6 1.81v20.38c0 .67.21 1.21.58 1.58zM16.32 15.28l-2.53-2.53L4.6 22.68l11.72-7.4zm-2.53-6.56l2.53-2.53L4.6 1.32l9.19 7.4zM21.22 10.56l-3.72-2.15-2.78 2.78 2.78 2.78 3.72-2.15c.7-.4.7-1.06 0-1.26z"/></svg>
-              Google Play
-            </a>
+          <div class="hero__badge" data-i18n="hero_badge">AI-powered nutrition tracking</div>
+          <h1 class="hero__title" data-i18n="hero_title">The easiest way<br>to track what you eat</h1>
+          <p class="hero__subtitle" data-i18n="hero_subtitle">Whether you're cutting, bulking, or dieting — Bamboo makes tracking effortless</p>
+          <div class="download-wrap">
+            <a href="https://apps.apple.com/" class="download-button" target="_blank" rel="noopener" data-i18n="download_app">Download App</a>
           </div>
         </div>
         <div class="hero__phone anim-fade" data-anim="fade-up" style="animation-delay: 0.15s">
           <div class="phone-frame">
             <div class="phone-frame__notch"></div>
             <div class="phone-frame__screen">
-              <img src="hero-screen.png" alt="Bamboo — трекер калорий" class="phone-frame__img">
+              <img src="hero-screen.png" alt="Bamboo app — calorie tracking dashboard" class="phone-frame__img">
             </div>
           </div>
         </div>
@@ -58,23 +51,23 @@
 
     <section class="pains">
       <div class="container">
-        <h2 class="section-title anim-fade" data-anim="fade-up">Знакомо?</h2>
-        <p class="section-subtitle anim-fade" data-anim="fade-up">Главный барьер между тобой и результатом — сложность контроля питания</p>
+        <h2 class="section-title anim-fade" data-anim="fade-up" data-i18n="pains_title">What's holding you back?</h2>
+        <p class="section-subtitle anim-fade" data-anim="fade-up" data-i18n="pains_subtitle">Tracking nutrition shouldn't be this hard</p>
         <div class="pains__grid">
           <div class="pain-card anim-fade" data-anim="fade-up" style="animation-delay: 0s">
             <div class="pain-card__icon-wrap"><span class="pain-card__icon">🏋️</span></div>
-            <h3 class="pain-card__title">Хочу похудеть, но не понимаю сколько ем</h3>
-            <p class="pain-card__text">Без точных данных о калориях невозможно создать дефицит и увидеть результат</p>
+            <h3 class="pain-card__title" data-i18n="pain1_title">Losing weight blindly</h3>
+            <p class="pain-card__text" data-i18n="pain1_text">Without accurate calorie data, you can't create a deficit that actually works</p>
           </div>
           <div class="pain-card anim-fade" data-anim="fade-up" style="animation-delay: 0.1s">
             <div class="pain-card__icon-wrap"><span class="pain-card__icon">💪</span></div>
-            <h3 class="pain-card__title">Набираю массу, но не могу контролировать БЖУ</h3>
-            <p class="pain-card__text">Чтобы расти, нужен профицит и правильное соотношение белков, жиров и углеводов</p>
+            <h3 class="pain-card__title" data-i18n="pain2_title">Bulking without a plan</h3>
+            <p class="pain-card__text" data-i18n="pain2_text">Muscle growth needs a surplus and the right protein-fat-carb ratio</p>
           </div>
           <div class="pain-card anim-fade" data-anim="fade-up" style="animation-delay: 0.2s">
             <div class="pain-card__icon-wrap"><span class="pain-card__icon">🥗</span></div>
-            <h3 class="pain-card__title">Слежу за диетой, но срываюсь из-за сложности</h3>
-            <p class="pain-card__text">Подсчёт каждого продукта вручную отнимает время и убивает мотивацию</p>
+            <h3 class="pain-card__title" data-i18n="pain3_title">Quitting diets out of frustration</h3>
+            <p class="pain-card__text" data-i18n="pain3_text">Manual logging takes too much time and kills your motivation</p>
           </div>
         </div>
       </div>
@@ -82,28 +75,28 @@
 
     <section class="solution">
       <div class="container">
-        <h2 class="section-title anim-fade" data-anim="fade-up">Bamboo берёт рутину на себя</h2>
-        <p class="section-subtitle anim-fade" data-anim="fade-up">Ты фокусируешься на цели — приложение считает за тебя</p>
+        <h2 class="section-title anim-fade" data-anim="fade-up" data-i18n="solution_title">Bamboo does the hard part</h2>
+        <p class="section-subtitle anim-fade" data-anim="fade-up" data-i18n="solution_subtitle">You focus on your goal. We handle the numbers.</p>
         <div class="solution__list">
           <div class="solution-item anim-fade" data-anim="fade-up" style="animation-delay: 0s">
             <div class="solution-item__number">01</div>
             <div class="solution-item__content">
-              <h3 class="solution-item__title">Не нужно вбивать вручную</h3>
-              <p class="solution-item__text">Сфотографируй еду или опиши голосом — AI определит калории и БЖУ за секунду</p>
+              <h3 class="solution-item__title" data-i18n="sol1_title">Skip the manual logging</h3>
+              <p class="solution-item__text" data-i18n="sol1_text">Take a photo of your food or describe it by voice — AI determines calories and macros in a second</p>
             </div>
           </div>
           <div class="solution-item anim-fade" data-anim="fade-up" style="animation-delay: 0.1s">
             <div class="solution-item__number">02</div>
             <div class="solution-item__content">
-              <h3 class="solution-item__title">Точные данные для твоей цели</h3>
-              <p class="solution-item__text">Дефицит для похудения, профицит для набора, баланс для диеты — всё на одном экране</p>
+              <h3 class="solution-item__title" data-i18n="sol2_title">Data tailored to your goal</h3>
+              <p class="solution-item__text" data-i18n="sol2_text">Deficit for weight loss, surplus for gaining, balance for dieting — all on one screen</p>
             </div>
           </div>
           <div class="solution-item anim-fade" data-anim="fade-up" style="animation-delay: 0.2s">
             <div class="solution-item__number">03</div>
             <div class="solution-item__content">
-              <h3 class="solution-item__title">Простой процесс — не бросишь</h3>
-              <p class="solution-item__text">Когда контроль питания занимает 5 секунд, мотивация не пропадает</p>
+              <h3 class="solution-item__title" data-i18n="sol3_title">So easy you'll actually stick with it</h3>
+              <p class="solution-item__text" data-i18n="sol3_text">When tracking takes 5 seconds, motivation doesn't fade away</p>
             </div>
           </div>
         </div>
@@ -112,47 +105,47 @@
 
     <section class="features">
       <div class="container">
-        <h2 class="section-title anim-fade" data-anim="fade-up">Как это работает</h2>
+        <h2 class="section-title anim-fade" data-anim="fade-up" data-i18n="features_title">How it works</h2>
         <div class="features__inner">
           <div class="features__phone" id="feature-swipe">
             <div class="phone-frame phone-frame--feature">
               <div class="phone-frame__notch"></div>
               <div class="phone-frame__screen" id="feature-screen">
-                <img src="feature-snap_a_photo.png" alt="Фото-анализ" class="phone-frame__img" id="feature-img">
+                <img src="feature-snap_a_photo.png" alt="Photo analysis feature" class="phone-frame__img" id="feature-img">
               </div>
             </div>
           </div>
           <div class="features__mobile-text" id="feature-mobile-text">
-            <h3 class="feature-mobile__title">Сфотографируй еду</h3>
-            <p class="feature-mobile__text">AI распознает блюдо и посчитает калории и БЖУ</p>
+            <h3 class="feature-mobile__title" data-i18n="feat1_title">Snap a photo of your food</h3>
+            <p class="feature-mobile__text" data-i18n="feat1_text">AI recognizes the dish and calculates calories and macros</p>
           </div>
           <div class="features__list">
-            <button class="feature-card feature-card--active" data-img="feature-snap_a_photo.png" data-index="0" data-title="Сфотографируй еду" data-text="AI распознает блюдо и посчитает калории и БЖУ">
+            <button class="feature-card feature-card--active" data-img="feature-snap_a_photo.png" data-index="0" data-i18n-title="feat1_title" data-i18n-text="feat1_text">
               <span class="feature-card__icon">📸</span>
               <div class="feature-card__content">
-                <h3 class="feature-card__title">Сфотографируй еду</h3>
-                <p class="feature-card__text">AI распознает блюдо и посчитает калории и БЖУ</p>
+                <h3 class="feature-card__title" data-i18n="feat1_title">Snap a photo of your food</h3>
+                <p class="feature-card__text" data-i18n="feat1_text">AI recognizes the dish and calculates calories and macros</p>
               </div>
             </button>
-            <button class="feature-card" data-img="feature-describing-meal.png" data-index="1" data-title="Опиши голосом или текстом" data-text="Скажи или напиши, что ты съел — этого достаточно">
+            <button class="feature-card" data-img="feature-describing-meal.png" data-index="1" data-i18n-title="feat2_title" data-i18n-text="feat2_text">
               <span class="feature-card__icon">🎤</span>
               <div class="feature-card__content">
-                <h3 class="feature-card__title">Опиши голосом или текстом</h3>
-                <p class="feature-card__text">Скажи или напиши, что ты съел — этого достаточно</p>
+                <h3 class="feature-card__title" data-i18n="feat2_title">Describe by voice or text</h3>
+                <p class="feature-card__text" data-i18n="feat2_text">Just say or type what you ate — that's enough</p>
               </div>
             </button>
-            <button class="feature-card" data-img="feature-track-progress.png" data-index="2" data-title="Следи за прогрессом" data-text="Смотри динамику по дням и неделям — видь, как приближаешься к цели">
+            <button class="feature-card" data-img="feature-track-progress.png" data-index="2" data-i18n-title="feat3_title" data-i18n-text="feat3_text">
               <span class="feature-card__icon">📊</span>
               <div class="feature-card__content">
-                <h3 class="feature-card__title">Следи за прогрессом</h3>
-                <p class="feature-card__text">Смотри динамику по дням и неделям — видь, как приближаешься к цели</p>
+                <h3 class="feature-card__title" data-i18n="feat3_title">Track your progress</h3>
+                <p class="feature-card__text" data-i18n="feat3_text">See your trends by day and week — watch yourself getting closer to your goal</p>
               </div>
             </button>
-            <button class="feature-card" data-img="feature-export.png" data-index="3" data-title="Выгрузка для тренера" data-text="Отправь данные своему тренеру или нутрициологу в один клик">
+            <button class="feature-card" data-img="feature-export.png" data-index="3" data-i18n-title="feat4_title" data-i18n-text="feat4_text">
               <span class="feature-card__icon">📤</span>
               <div class="feature-card__content">
-                <h3 class="feature-card__title">Выгрузка для тренера</h3>
-                <p class="feature-card__text">Отправь данные своему тренеру или нутрициологу в один клик</p>
+                <h3 class="feature-card__title" data-i18n="feat4_title">Export for your trainer</h3>
+                <p class="feature-card__text" data-i18n="feat4_text">Send your data to your trainer or nutritionist in one tap</p>
               </div>
             </button>
           </div>
@@ -169,11 +162,10 @@
     <section class="cta">
       <div class="cta__glow"></div>
       <div class="container cta__inner">
-        <h2 class="cta__title anim-fade" data-anim="fade-up">Твоя цель ближе, чем кажется</h2>
-        <p class="cta__subtitle anim-fade" data-anim="fade-up">Получи премиум-функции на 3 дня бесплатно</p>
-        <div class="store-buttons store-buttons--center anim-fade" data-anim="fade-up">
-          <a href="https://apps.apple.com/" class="store-button store-button--light" target="_blank" rel="noopener">App Store</a>
-          <a href="https://play.google.com/" class="store-button store-button--light" target="_blank" rel="noopener">Google Play</a>
+        <h2 class="cta__title anim-fade" data-anim="fade-up" data-i18n="cta_title">Your goal is closer than you think</h2>
+        <p class="cta__subtitle anim-fade" data-anim="fade-up" data-i18n="cta_subtitle">Get premium features free for 3 days</p>
+        <div class="download-wrap download-wrap--center anim-fade" data-anim="fade-up">
+          <a href="https://apps.apple.com/" class="download-button download-button--light" target="_blank" rel="noopener" data-i18n="download_app">Download App</a>
         </div>
       </div>
     </section>
@@ -187,85 +179,427 @@
         <a href="mailto:support@bureau613.com" class="footer__link">support@bureau613.com</a>
       </div>
       <div class="footer__col">
-        <strong class="footer__heading">Ссылки</strong>
-        <a href="#" class="footer__link">Политика конфиденциальности</a>
-        <a href="#" class="footer__link">Условия использования</a>
+        <strong class="footer__heading" data-i18n="footer_links">Links</strong>
+        <a href="#" class="footer__link" data-i18n="footer_privacy">Privacy Policy</a>
+        <a href="#" class="footer__link" data-i18n="footer_terms">Terms of Use</a>
       </div>
       <div class="footer__col">
-        <strong class="footer__heading">Язык</strong>
-        <div class="footer__lang-switch">🌐 Русский ▾</div>
+        <strong class="footer__heading" data-i18n="footer_lang_label">Language</strong>
+        <div class="lang-picker" id="lang-picker">
+          <button class="lang-picker__toggle" id="lang-toggle">🌐 English ▾</button>
+          <div class="lang-picker__dropdown" id="lang-dropdown">
+            <button class="lang-picker__option lang-picker__option--active" data-lang="en">English</button>
+            <button class="lang-picker__option" data-lang="ru">Русский</button>
+            <button class="lang-picker__option" data-lang="de">Deutsch</button>
+            <button class="lang-picker__option" data-lang="pt">Português</button>
+            <button class="lang-picker__option" data-lang="fr">Français</button>
+            <button class="lang-picker__option" data-lang="ar">العربية</button>
+          </div>
+        </div>
       </div>
     </div>
     <div class="container">
-      <p class="footer__copy">&copy; 2026 Bureau 613. Все права защищены.</p>
+      <p class="footer__copy" data-i18n="footer_copy">&copy; 2026 Bureau 613. All rights reserved.</p>
     </div>
   </footer>
 
   <script>
-    (function () {
-      var cards = document.querySelectorAll('.feature-card');
-      var dots = document.querySelectorAll('.dot');
-      var screen = document.getElementById('feature-screen');
-      var mobileText = document.getElementById('feature-mobile-text');
-      var swipeArea = document.getElementById('feature-swipe');
-      var current = 0;
-      var total = cards.length;
-
-      function activate(index) {
-        current = index;
-        cards.forEach(function (c) { c.classList.remove('feature-card--active'); });
-        dots.forEach(function (d) { d.classList.remove('dot--active'); });
-        cards[index].classList.add('feature-card--active');
-        dots[index].classList.add('dot--active');
-
-        var imgSrc = cards[index].getAttribute('data-img');
-        var title = cards[index].getAttribute('data-title');
-        var text = cards[index].getAttribute('data-text');
-
-        screen.style.opacity = '0';
-        setTimeout(function () {
-          screen.innerHTML = '<img src="' + imgSrc + '" alt="' + title + '" class="phone-frame__img">';
-          screen.style.opacity = '1';
-        }, 150);
-
-        mobileText.innerHTML =
-          '<h3 class="feature-mobile__title">' + title + '</h3>' +
-          '<p class="feature-mobile__text">' + text + '</p>';
+  (function () {
+    /* === Translations === */
+    var T = {
+      en: {
+        header_cta: 'Download',
+        hero_badge: 'AI-powered nutrition tracking',
+        hero_title: 'The easiest way<br>to track what you eat',
+        hero_subtitle: "Whether you're cutting, bulking, or dieting — Bamboo makes tracking effortless",
+        download_app: 'Download App',
+        pains_title: "What's holding you back?",
+        pains_subtitle: "Tracking nutrition shouldn't be this hard",
+        pain1_title: 'Losing weight blindly',
+        pain1_text: "Without accurate calorie data, you can't create a deficit that actually works",
+        pain2_title: 'Bulking without a plan',
+        pain2_text: 'Muscle growth needs a surplus and the right protein-fat-carb ratio',
+        pain3_title: 'Quitting diets out of frustration',
+        pain3_text: 'Manual logging takes too much time and kills your motivation',
+        solution_title: 'Bamboo does the hard part',
+        solution_subtitle: 'You focus on your goal. We handle the numbers.',
+        sol1_title: 'Skip the manual logging',
+        sol1_text: 'Take a photo of your food or describe it by voice — AI determines calories and macros in a second',
+        sol2_title: 'Data tailored to your goal',
+        sol2_text: 'Deficit for weight loss, surplus for gaining, balance for dieting — all on one screen',
+        sol3_title: "So easy you'll actually stick with it",
+        sol3_text: "When tracking takes 5 seconds, motivation doesn't fade away",
+        features_title: 'How it works',
+        feat1_title: 'Snap a photo of your food',
+        feat1_text: 'AI recognizes the dish and calculates calories and macros',
+        feat2_title: 'Describe by voice or text',
+        feat2_text: "Just say or type what you ate — that's enough",
+        feat3_title: 'Track your progress',
+        feat3_text: 'See your trends by day and week — watch yourself getting closer to your goal',
+        feat4_title: 'Export for your trainer',
+        feat4_text: 'Send your data to your trainer or nutritionist in one tap',
+        cta_title: 'Your goal is closer than you think',
+        cta_subtitle: 'Get premium features free for 3 days',
+        footer_links: 'Links',
+        footer_privacy: 'Privacy Policy',
+        footer_terms: 'Terms of Use',
+        footer_lang_label: 'Language',
+        footer_copy: '&copy; 2026 Bureau 613. All rights reserved.',
+        lang_name: 'English'
+      },
+      ru: {
+        header_cta: 'Скачать',
+        hero_badge: 'Умный трекер питания на базе AI',
+        hero_title: 'Самый простой способ<br>следить за питанием',
+        hero_subtitle: 'Худей, набирай массу или придерживайся диеты — Bamboo делает контроль питания простым',
+        download_app: 'Скачать приложение',
+        pains_title: 'Что мешает достичь цели?',
+        pains_subtitle: 'Контроль питания не должен быть таким сложным',
+        pain1_title: 'Худеешь вслепую',
+        pain1_text: 'Без точных данных о калориях невозможно создать дефицит, который реально работает',
+        pain2_title: 'Набираешь массу без плана',
+        pain2_text: 'Для роста мышц нужен профицит и правильное соотношение белков, жиров и углеводов',
+        pain3_title: 'Бросаешь диету от усталости',
+        pain3_text: 'Записывать каждый продукт вручную — долго и убивает мотивацию',
+        solution_title: 'Bamboo берёт рутину на себя',
+        solution_subtitle: 'Ты фокусируешься на цели — приложение считает за тебя',
+        sol1_title: 'Забудь про ручной ввод',
+        sol1_text: 'Сфотографируй еду или опиши голосом — AI определит калории и БЖУ за секунду',
+        sol2_title: 'Данные под твою цель',
+        sol2_text: 'Дефицит для похудения, профицит для набора, баланс для диеты — всё на одном экране',
+        sol3_title: 'Настолько просто, что не бросишь',
+        sol3_text: 'Когда контроль питания занимает 5 секунд, мотивация не пропадает',
+        features_title: 'Как это работает',
+        feat1_title: 'Сфотографируй еду',
+        feat1_text: 'AI распознает блюдо и посчитает калории и БЖУ',
+        feat2_title: 'Опиши голосом или текстом',
+        feat2_text: 'Скажи или напиши, что ты съел — этого достаточно',
+        feat3_title: 'Следи за прогрессом',
+        feat3_text: 'Смотри динамику по дням и неделям — наблюдай, как приближаешься к цели',
+        feat4_title: 'Выгрузка для тренера',
+        feat4_text: 'Отправь данные своему тренеру или нутрициологу в один клик',
+        cta_title: 'Твоя цель ближе, чем кажется',
+        cta_subtitle: 'Получи премиум-функции на 3 дня бесплатно',
+        footer_links: 'Ссылки',
+        footer_privacy: 'Политика конфиденциальности',
+        footer_terms: 'Условия использования',
+        footer_lang_label: 'Язык',
+        footer_copy: '&copy; 2026 Bureau 613. Все права защищены.',
+        lang_name: 'Русский'
+      },
+      de: {
+        header_cta: 'Laden',
+        hero_badge: 'KI-gestütztes Ernährungs-Tracking',
+        hero_title: 'Kalorien zählen<br>war noch nie so einfach',
+        hero_subtitle: 'Abnehmen, Muskeln aufbauen oder Diät halten — Bamboo macht Ernährungstracking mühelos',
+        download_app: 'App herunterladen',
+        pains_title: 'Was hält dich zurück?',
+        pains_subtitle: 'Ernährung tracken sollte nicht so kompliziert sein',
+        pain1_title: 'Abnehmen ohne Überblick',
+        pain1_text: 'Ohne genaue Kaloriendaten kannst du kein Defizit aufbauen, das wirklich funktioniert',
+        pain2_title: 'Muskelaufbau ohne Plan',
+        pain2_text: 'Für Muskelwachstum brauchst du einen Überschuss und das richtige Verhältnis von Protein, Fett und Kohlenhydraten',
+        pain3_title: 'Diäten aufgeben aus Frust',
+        pain3_text: 'Jedes Lebensmittel einzeln einzutragen kostet zu viel Zeit und Motivation',
+        solution_title: 'Bamboo übernimmt die Arbeit',
+        solution_subtitle: 'Du konzentrierst dich auf dein Ziel. Wir kümmern uns um die Zahlen.',
+        sol1_title: 'Schluss mit manuellem Eintragen',
+        sol1_text: 'Fotografiere dein Essen oder beschreibe es per Sprache — die KI berechnet Kalorien und Makros in Sekunden',
+        sol2_title: 'Daten, die zu deinem Ziel passen',
+        sol2_text: 'Defizit zum Abnehmen, Überschuss zum Aufbauen, Balance für die Diät — alles auf einen Blick',
+        sol3_title: 'So einfach, dass du dranbleibst',
+        sol3_text: 'Wenn Tracking nur 5 Sekunden dauert, bleibt die Motivation erhalten',
+        features_title: 'So funktioniert es',
+        feat1_title: 'Fotografiere dein Essen',
+        feat1_text: 'Die KI erkennt das Gericht und berechnet Kalorien und Makros',
+        feat2_title: 'Per Sprache oder Text beschreiben',
+        feat2_text: 'Sag oder tippe einfach, was du gegessen hast — das reicht',
+        feat3_title: 'Verfolge deinen Fortschritt',
+        feat3_text: 'Sieh deine Trends nach Tag und Woche — beobachte, wie du deinem Ziel näher kommst',
+        feat4_title: 'Export für deinen Trainer',
+        feat4_text: 'Sende deine Daten an deinen Trainer oder Ernährungsberater mit einem Tipp',
+        cta_title: 'Dein Ziel ist näher als du denkst',
+        cta_subtitle: '3 Tage Premium-Funktionen kostenlos testen',
+        footer_links: 'Links',
+        footer_privacy: 'Datenschutzrichtlinie',
+        footer_terms: 'Nutzungsbedingungen',
+        footer_lang_label: 'Sprache',
+        footer_copy: '&copy; 2026 Bureau 613. Alle Rechte vorbehalten.',
+        lang_name: 'Deutsch'
+      },
+      pt: {
+        header_cta: 'Baixar',
+        hero_badge: 'Acompanhamento nutricional com IA',
+        hero_title: 'O jeito mais fácil<br>de acompanhar sua alimentação',
+        hero_subtitle: 'Emagrecendo, ganhando massa ou seguindo dieta — o Bamboo facilita o controle nutricional',
+        download_app: 'Baixar App',
+        pains_title: 'O que está te impedindo?',
+        pains_subtitle: 'Controlar a alimentação não deveria ser tão difícil',
+        pain1_title: 'Emagrecer no escuro',
+        pain1_text: 'Sem dados precisos de calorias, é impossível manter um déficit que realmente funcione',
+        pain2_title: 'Ganhar massa sem controle',
+        pain2_text: 'Para crescer, você precisa de superávit e a proporção certa de proteínas, gorduras e carboidratos',
+        pain3_title: 'Desistir da dieta por frustração',
+        pain3_text: 'Registrar cada alimento manualmente consome tempo demais e acaba com a motivação',
+        solution_title: 'O Bamboo faz o trabalho pesado',
+        solution_subtitle: 'Você foca no seu objetivo. A gente cuida dos números.',
+        sol1_title: 'Esqueça o registro manual',
+        sol1_text: 'Tire uma foto da comida ou descreva por voz — a IA calcula calorias e macros em segundos',
+        sol2_title: 'Dados sob medida pro seu objetivo',
+        sol2_text: 'Déficit pra emagrecer, superávit pra ganhar, equilíbrio pra dieta — tudo na mesma tela',
+        sol3_title: 'Tão fácil que você vai manter o hábito',
+        sol3_text: 'Quando o controle leva 5 segundos, a motivação não vai embora',
+        features_title: 'Como funciona',
+        feat1_title: 'Tire uma foto da refeição',
+        feat1_text: 'A IA reconhece o prato e calcula calorias e macros',
+        feat2_title: 'Descreva por voz ou texto',
+        feat2_text: 'Diga ou digite o que comeu — simples assim',
+        feat3_title: 'Acompanhe seu progresso',
+        feat3_text: 'Veja suas tendências por dia e semana — acompanhe sua evolução rumo ao objetivo',
+        feat4_title: 'Exporte para seu nutricionista',
+        feat4_text: 'Envie seus dados para o nutricionista ou personal com um toque',
+        cta_title: 'Seu objetivo está mais perto do que imagina',
+        cta_subtitle: 'Teste as funções premium grátis por 3 dias',
+        footer_links: 'Links',
+        footer_privacy: 'Política de Privacidade',
+        footer_terms: 'Termos de Uso',
+        footer_lang_label: 'Idioma',
+        footer_copy: '&copy; 2026 Bureau 613. Todos os direitos reservados.',
+        lang_name: 'Português'
+      },
+      fr: {
+        header_cta: 'Télécharger',
+        hero_badge: 'Suivi nutritionnel propulsé par l\'IA',
+        hero_title: 'La façon la plus simple<br>de suivre votre alimentation',
+        hero_subtitle: 'Perte de poids, prise de masse ou régime — Bamboo simplifie le suivi nutritionnel',
+        download_app: 'Télécharger l\'app',
+        pains_title: 'Qu\'est-ce qui vous freine ?',
+        pains_subtitle: 'Suivre son alimentation ne devrait pas être aussi compliqué',
+        pain1_title: 'Perdre du poids à l\'aveugle',
+        pain1_text: 'Sans données caloriques précises, impossible de créer un déficit qui fonctionne vraiment',
+        pain2_title: 'Prendre du muscle sans plan',
+        pain2_text: 'La croissance musculaire exige un surplus et le bon ratio protéines-lipides-glucides',
+        pain3_title: 'Abandonner ses régimes par frustration',
+        pain3_text: 'Saisir chaque aliment manuellement prend trop de temps et tue la motivation',
+        solution_title: 'Bamboo s\'occupe du plus dur',
+        solution_subtitle: 'Concentrez-vous sur votre objectif. On gère les chiffres.',
+        sol1_title: 'Fini la saisie manuelle',
+        sol1_text: 'Prenez en photo votre repas ou décrivez-le à la voix — l\'IA calcule calories et macros en une seconde',
+        sol2_title: 'Des données adaptées à votre objectif',
+        sol2_text: 'Déficit pour maigrir, surplus pour prendre, équilibre pour le régime — tout sur un seul écran',
+        sol3_title: 'Si simple que vous allez vraiment tenir',
+        sol3_text: 'Quand le suivi prend 5 secondes, la motivation reste intacte',
+        features_title: 'Comment ça marche',
+        feat1_title: 'Photographiez votre repas',
+        feat1_text: 'L\'IA reconnaît le plat et calcule les calories et macros',
+        feat2_title: 'Décrivez à la voix ou par texte',
+        feat2_text: 'Dites ou tapez ce que vous avez mangé — c\'est tout',
+        feat3_title: 'Suivez votre progression',
+        feat3_text: 'Visualisez vos tendances par jour et par semaine — voyez-vous vous rapprocher de votre objectif',
+        feat4_title: 'Export pour votre coach',
+        feat4_text: 'Envoyez vos données à votre coach ou nutritionniste en un clic',
+        cta_title: 'Votre objectif est plus proche que vous ne le pensez',
+        cta_subtitle: 'Profitez des fonctions premium gratuitement pendant 3 jours',
+        footer_links: 'Liens',
+        footer_privacy: 'Politique de confidentialité',
+        footer_terms: 'Conditions d\'utilisation',
+        footer_lang_label: 'Langue',
+        footer_copy: '&copy; 2026 Bureau 613. Tous droits réservés.',
+        lang_name: 'Français'
+      },
+      ar: {
+        header_cta: 'تحميل',
+        hero_badge: 'تتبع غذائي مدعوم بالذكاء الاصطناعي',
+        hero_title: 'أسهل طريقة<br>لتتبع ما تأكله',
+        hero_subtitle: 'سواء كنت تخسر وزناً أو تبني عضلات أو تتبع حمية — بامبو يجعل التتبع سهلاً',
+        download_app: 'تحميل التطبيق',
+        pains_title: 'ما الذي يعيقك؟',
+        pains_subtitle: 'تتبع التغذية لا ينبغي أن يكون بهذه الصعوبة',
+        pain1_title: 'إنقاص الوزن بدون بيانات',
+        pain1_text: 'بدون بيانات دقيقة عن السعرات، لا يمكنك إنشاء عجز غذائي فعّال',
+        pain2_title: 'بناء العضلات بدون خطة',
+        pain2_text: 'نمو العضلات يحتاج فائضاً غذائياً والنسبة الصحيحة من البروتين والدهون والكربوهيدرات',
+        pain3_title: 'التخلي عن الحمية بسبب التعقيد',
+        pain3_text: 'تسجيل كل وجبة يدوياً يستهلك وقتاً كبيراً ويقتل الحافز',
+        solution_title: 'بامبو يتولى الجزء الصعب',
+        solution_subtitle: 'ركّز على هدفك. نحن نتولى الأرقام.',
+        sol1_title: 'تخلّص من التسجيل اليدوي',
+        sol1_text: 'صوّر وجبتك أو صِفها بصوتك — الذكاء الاصطناعي يحسب السعرات والعناصر الغذائية في ثانية',
+        sol2_title: 'بيانات مصممة لهدفك',
+        sol2_text: 'عجز لإنقاص الوزن، فائض لبناء العضلات، توازن للحمية — الكل في شاشة واحدة',
+        sol3_title: 'سهل جداً لدرجة أنك ستلتزم فعلاً',
+        sol3_text: 'عندما يستغرق التتبع 5 ثوانٍ فقط، الحافز لا يختفي',
+        features_title: 'كيف يعمل',
+        feat1_title: 'صوّر وجبتك',
+        feat1_text: 'الذكاء الاصطناعي يتعرف على الطبق ويحسب السعرات والعناصر الغذائية',
+        feat2_title: 'صِف بالصوت أو الكتابة',
+        feat2_text: 'قُل أو اكتب ما أكلته — هذا كل ما تحتاجه',
+        feat3_title: 'تابع تقدمك',
+        feat3_text: 'شاهد اتجاهاتك يومياً وأسبوعياً — راقب اقترابك من هدفك',
+        feat4_title: 'تصدير لمدربك',
+        feat4_text: 'أرسل بياناتك لمدربك أو أخصائي التغذية بنقرة واحدة',
+        cta_title: 'هدفك أقرب مما تتصور',
+        cta_subtitle: 'احصل على الميزات المميزة مجاناً لمدة 3 أيام',
+        footer_links: 'روابط',
+        footer_privacy: 'سياسة الخصوصية',
+        footer_terms: 'شروط الاستخدام',
+        footer_lang_label: 'اللغة',
+        footer_copy: '&copy; 2026 Bureau 613. جميع الحقوق محفوظة.',
+        lang_name: 'العربية'
       }
+    };
 
-      cards.forEach(function (card, i) {
-        card.addEventListener('click', function () { activate(i); });
+    var RTL_LANGS = ['ar'];
+    var CYRILLIC_LANGS = ['ru'];
+    var currentLang = 'en';
+
+    function setLang(lang) {
+      currentLang = lang;
+      var strings = T[lang];
+      if (!strings) return;
+
+      // Update all data-i18n elements
+      document.querySelectorAll('[data-i18n]').forEach(function (el) {
+        var key = el.getAttribute('data-i18n');
+        if (strings[key]) el.innerHTML = strings[key];
       });
 
-      dots.forEach(function (dot, i) {
-        dot.addEventListener('click', function () { activate(i); });
+      // Switch fonts for Cyrillic
+      var isCyrillic = CYRILLIC_LANGS.indexOf(lang) !== -1;
+      document.documentElement.style.setProperty('--font-display', isCyrillic
+        ? "'Manrope', -apple-system, sans-serif"
+        : "'Outfit', -apple-system, sans-serif");
+      document.documentElement.style.setProperty('--font-body', isCyrillic
+        ? "'Manrope', -apple-system, sans-serif"
+        : "'DM Sans', -apple-system, sans-serif");
+
+      // Update feature card data-title/data-text for JS switching
+      document.querySelectorAll('[data-i18n-title]').forEach(function (el) {
+        var titleKey = el.getAttribute('data-i18n-title');
+        var textKey = el.getAttribute('data-i18n-text');
+        if (strings[titleKey]) el.setAttribute('data-title', strings[titleKey]);
+        if (strings[textKey]) el.setAttribute('data-text', strings[textKey]);
       });
 
-      var startX = 0;
-      swipeArea.addEventListener('touchstart', function (e) {
-        startX = e.touches[0].clientX;
-      }, { passive: true });
+      // RTL
+      var isRtl = RTL_LANGS.indexOf(lang) !== -1;
+      document.documentElement.setAttribute('dir', isRtl ? 'rtl' : 'ltr');
+      document.documentElement.setAttribute('lang', lang);
 
-      swipeArea.addEventListener('touchend', function (e) {
-        var diff = startX - e.changedTouches[0].clientX;
-        if (Math.abs(diff) > 40) {
-          if (diff > 0 && current < total - 1) activate(current + 1);
-          if (diff < 0 && current > 0) activate(current - 1);
+      // Update lang toggle text
+      document.getElementById('lang-toggle').textContent = '🌐 ' + strings.lang_name + ' ▾';
+
+      // Update active state in dropdown
+      document.querySelectorAll('.lang-picker__option').forEach(function (opt) {
+        opt.classList.toggle('lang-picker__option--active', opt.getAttribute('data-lang') === lang);
+      });
+
+      // Re-activate current feature to refresh mobile text
+      if (typeof activateFeature === 'function') activateFeature(currentFeature);
+
+      // Persist choice
+      try { localStorage.setItem('bamboo-lang', lang); } catch (e) {}
+    }
+
+    /* === Language Picker === */
+    var toggle = document.getElementById('lang-toggle');
+    var dropdown = document.getElementById('lang-dropdown');
+
+    toggle.addEventListener('click', function () {
+      dropdown.classList.toggle('lang-picker__dropdown--open');
+    });
+
+    document.querySelectorAll('.lang-picker__option').forEach(function (opt) {
+      opt.addEventListener('click', function () {
+        setLang(opt.getAttribute('data-lang'));
+        dropdown.classList.remove('lang-picker__dropdown--open');
+      });
+    });
+
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('.lang-picker')) {
+        dropdown.classList.remove('lang-picker__dropdown--open');
+      }
+    });
+
+    /* === Feature Switching === */
+    var cards = document.querySelectorAll('.feature-card');
+    var dots = document.querySelectorAll('.dot');
+    var screen = document.getElementById('feature-screen');
+    var mobileText = document.getElementById('feature-mobile-text');
+    var swipeArea = document.getElementById('feature-swipe');
+    var currentFeature = 0;
+    var total = cards.length;
+
+    function activateFeature(index) {
+      currentFeature = index;
+      cards.forEach(function (c) { c.classList.remove('feature-card--active'); });
+      dots.forEach(function (d) { d.classList.remove('dot--active'); });
+      cards[index].classList.add('feature-card--active');
+      dots[index].classList.add('dot--active');
+
+      var imgSrc = cards[index].getAttribute('data-img');
+      var title = cards[index].getAttribute('data-title') || cards[index].querySelector('.feature-card__title').textContent;
+      var text = cards[index].getAttribute('data-text') || cards[index].querySelector('.feature-card__text').textContent;
+
+      screen.style.opacity = '0';
+      setTimeout(function () {
+        screen.innerHTML = '<img src="' + imgSrc + '" alt="' + title + '" class="phone-frame__img">';
+        screen.style.opacity = '1';
+      }, 150);
+
+      mobileText.innerHTML =
+        '<h3 class="feature-mobile__title">' + title + '</h3>' +
+        '<p class="feature-mobile__text">' + text + '</p>';
+    }
+
+    // Expose for language switcher
+    window.activateFeature = activateFeature;
+    window.currentFeature = 0;
+    Object.defineProperty(window, 'currentFeature', {
+      get: function () { return currentFeature; },
+      set: function (v) { currentFeature = v; }
+    });
+
+    cards.forEach(function (card, i) {
+      card.addEventListener('click', function () { activateFeature(i); });
+    });
+
+    dots.forEach(function (dot, i) {
+      dot.addEventListener('click', function () { activateFeature(i); });
+    });
+
+    var startX = 0;
+    swipeArea.addEventListener('touchstart', function (e) {
+      startX = e.touches[0].clientX;
+    }, { passive: true });
+
+    swipeArea.addEventListener('touchend', function (e) {
+      var diff = startX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 40) {
+        if (diff > 0 && currentFeature < total - 1) activateFeature(currentFeature + 1);
+        if (diff < 0 && currentFeature > 0) activateFeature(currentFeature - 1);
+      }
+    }, { passive: true });
+
+    /* === Scroll Animations === */
+    var animEls = document.querySelectorAll('.anim-fade');
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('anim-visible');
+          observer.unobserve(entry.target);
         }
-      }, { passive: true });
+      });
+    }, { threshold: 0.15 });
+    animEls.forEach(function (el) { observer.observe(el); });
 
-      // Scroll animations
-      var animEls = document.querySelectorAll('.anim-fade');
-      var observer = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('anim-visible');
-            observer.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.15 });
-      animEls.forEach(function (el) { observer.observe(el); });
-    })();
+    /* === Init: restore saved language === */
+    try {
+      var saved = localStorage.getItem('bamboo-lang');
+      if (saved && T[saved]) setLang(saved);
+    } catch (e) {}
+  })();
   </script>
 </body>
 </html>
