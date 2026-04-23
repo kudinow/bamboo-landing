@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COPPA Policy — Yumisa</title>
+  <meta name="description" content="How Yumisa complies with the Children's Online Privacy Protection Act (COPPA).">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="logo.png" alt="Yumisa logo" class="header__logo-icon">
+        <span class="header__logo-text"><strong>Yumisa</strong> <span class="header__logo-divider">|</span> <span class="header__logo-tagline">AI calorie tracker</span></span>
+      </a>
+      <a href="https://apps.apple.com/" class="header__cta" target="_blank" rel="noopener">Download</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="legal">
+      <div class="container">
+        <div class="legal__inner">
+          <a href="index.html" class="legal__back">← Back to home</a>
+
+          <h1 class="legal__title">COPPA Compliance Policy</h1>
+          <p class="legal__meta"><strong>Last Updated: May 1, 2026</strong></p>
+
+          <p class="legal__intro">This document describes how "Sunction" Limited Liability Partnership ("Yumisa", "we", "us", or "our") complies with the Children's Online Privacy Protection Act ("COPPA"), 15 U.S.C. §§ 6501-6506, and the FTC's Children's Online Privacy Protection Rule, 16 C.F.R. Part 312, as amended in January 2025 (effective June 23, 2025; full compliance by April 22, 2026), in relation to the Yumisa mobile application ("App").</p>
+
+          <div class="legal__toc">
+            <div class="legal__toc-title">Table of Contents</div>
+            <ol>
+              <li><a href="#s1">Overview</a></li>
+              <li><a href="#s2">Age Restriction</a></li>
+              <li><a href="#s3">Age Gate Implementation</a></li>
+              <li><a href="#s4">No Knowing Collection from Children</a></li>
+              <li><a href="#s5">Parental Rights and Verifiable Parental Consent</a></li>
+              <li><a href="#s6">Third-Party SDKs</a></li>
+              <li><a href="#s7">App Store and Google Play Declarations</a></li>
+              <li><a href="#s8">Information Security Program for Children's Data</a></li>
+              <li><a href="#s9">Data Retention</a></li>
+              <li><a href="#s10">Safe Harbor</a></li>
+              <li><a href="#s11">Complaints and Regulator Inquiries</a></li>
+              <li><a href="#s12">Updates</a></li>
+              <li><a href="#s13">Contact</a></li>
+            </ol>
+          </div>
+
+          <h2 id="s1">1. Overview</h2>
+
+          <p>COPPA is a United States federal law that protects the privacy of children under 13 years old. It requires operators of websites and online services (including mobile apps) directed at children — or that knowingly collect information from children under 13 — to comply with specific requirements regarding notice, parental consent, data minimization, security, and retention.</p>
+
+          <p>The 2025 update to the COPPA Rule expanded the definition of "personal information" to explicitly include <strong>biometric identifiers</strong> (such as facial geometry from photos and voiceprints), and introduced <strong>separate verifiable parental consent</strong> requirements for disclosing children's data to third parties for advertising or AI/ML training.</p>
+
+          <h2 id="s2">2. Age Restriction</h2>
+
+          <p><strong>Yumisa is NOT directed at children under 16.</strong></p>
+
+          <p>The App:</p>
+          <ul>
+            <li>Is designed for users aged <strong>16 and older</strong> worldwide (this aligns with our global eligibility threshold — see <a href="terms-of-use.html#s1">Terms of Use, Section 1</a>)</li>
+            <li>Requires age verification during account registration</li>
+            <li>Does not target children in its marketing, content, or visual design</li>
+            <li>Does not use characters, activities, or visual elements primarily appealing to children under 13</li>
+            <li>Does not feature ads or content specifically directed at children</li>
+          </ul>
+
+          <p>Because we do not direct our service to children under 13 and require all users to be 16+, we do not knowingly collect personal information from children under 13.</p>
+
+          <h2 id="s3">3. Age Gate Implementation</h2>
+
+          <p>During onboarding, the App implements an age gate:</p>
+          <ul>
+            <li>Users must enter their <strong>date of birth</strong> (not just age)</li>
+            <li>If the user is under 16, account creation is blocked</li>
+            <li>The message displayed: <em>"Sorry, you must be at least 16 years old to use Yumisa."</em></li>
+            <li>We <strong>do not retain</strong> the date of birth entered by underage users who are blocked, beyond what is needed to enforce the block (a hashed device-level flag prevents immediate retry)</li>
+          </ul>
+
+          <p><strong>Anti-Circumvention.</strong> If we later detect through behavioural signals or user reports that an account holder appears to be under 16, we will:</p>
+          <ol>
+            <li>Suspend the account</li>
+            <li>Request age re-verification (via parental email or government-ID flow)</li>
+            <li>Terminate the account if age cannot be verified at 16+</li>
+          </ol>
+
+          <h2 id="s4">4. No Knowing Collection from Children</h2>
+
+          <p>We do not knowingly collect, use, or disclose personal information from children under 13 (or under 16, our global threshold). If we learn that we have inadvertently collected personal information from a child under our age threshold:</p>
+          <ol>
+            <li>We will <strong>immediately delete</strong> the child's personal information from our active systems and from backups within 60 days</li>
+            <li>We will <strong>terminate</strong> the child's account</li>
+            <li>We will <strong>notify</strong> the child's parent or legal guardian if we have sufficient contact information</li>
+            <li>We will document the incident in our internal Children's Privacy Incident Log</li>
+          </ol>
+
+          <h2 id="s5">5. Parental Rights and Verifiable Parental Consent</h2>
+
+          <p>If you are a parent or legal guardian and believe your child has provided personal information to us, contact us at <a href="mailto:support@bureau613.com">support@bureau613.com</a> with:</p>
+          <ul>
+            <li>Your name and contact information</li>
+            <li>Your child's name, account email or username</li>
+            <li>Confirmation of your relationship to the child</li>
+          </ul>
+
+          <p>We will:</p>
+          <ul>
+            <li><strong>Acknowledge your request within 5 business days</strong></li>
+            <li><strong>Verify your identity</strong> using one of the FTC-approved verifiable parental consent methods (e.g., signed consent form via email, government-issued ID + facial verification, knowledge-based authentication, or video conference with a trained representative)</li>
+            <li><strong>Investigate within 10 business days</strong> of identity verification</li>
+            <li><strong>Delete</strong> any information associated with the child's account</li>
+            <li>Confirm completion in writing</li>
+          </ul>
+
+          <p>You may also:</p>
+          <ul>
+            <li><strong>Review</strong> the personal information we have collected from your child</li>
+            <li><strong>Refuse</strong> to permit further collection or use of your child's information</li>
+            <li><strong>Receive</strong> a copy of your child's data in a portable format</li>
+          </ul>
+
+          <h2 id="s6">6. Third-Party SDKs</h2>
+
+          <p>The following third-party services integrated in the App have COPPA-compliant configurations:</p>
+
+          <div class="legal__table-wrap">
+            <table>
+              <thead>
+                <tr><th>Service</th><th>Purpose</th><th>COPPA Compliance</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Apple App Store</td><td>Distribution &amp; payments</td><td>Apple's Developer Program License Agreement requires COPPA compliance; we declare the App as not made for kids</td></tr>
+                <tr><td>Google Play</td><td>Distribution &amp; payments</td><td>Configured outside Google's Designed for Families program; we declare the App as not targeted at children</td></tr>
+                <tr><td>Adjust GmbH (Berlin, Germany)</td><td>Attribution, fraud detection, and pseudonymous analytics</td><td>SDK configured to disable behavioural tracking, advertising identifiers (IDFA / GAID), and persistent identifiers for users below our age threshold; signed Adjust Standard DPA with child-data safeguards</td></tr>
+                <tr><td>Adapty</td><td>Subscription management</td><td>Does not independently collect children's data; data limited to subscription metadata</td></tr>
+                <tr><td>AI providers (food recognition)</td><td>Image / text / audio analysis</td><td>Bound by data processing agreements; do not retain content beyond processing window</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>We do not integrate any SDK that targets children's advertising networks (e.g., COPPA-compliant kids networks like SuperAwesome). We do not run targeted advertising in Yumisa.</p>
+
+          <h2 id="s7">7. App Store and Google Play Declarations</h2>
+
+          <h3>7.1 Apple App Store</h3>
+          <p>In App Store Connect we declare:</p>
+          <ul>
+            <li>The App is <strong>not</strong> made for kids (Made for Kids: No)</li>
+            <li>Age rating: <strong>12+</strong> (recommended: 12+ or 17+ depending on health/body content)</li>
+            <li>Privacy Nutrition Label accurately reflects all data collection</li>
+            <li>App Tracking Transparency: we request permission only where required and never for children's accounts</li>
+          </ul>
+
+          <h3>7.2 Google Play</h3>
+          <p>In Google Play Console we declare:</p>
+          <ul>
+            <li>The App does <strong>not</strong> target children</li>
+            <li>The App is <strong>not</strong> part of the Designed for Families program</li>
+            <li>Content rating: <strong>Teen</strong> (recommended: Everyone or Everyone 10+)</li>
+            <li>Data Safety section accurately reflects all data collection and sharing</li>
+            <li>Health Apps Declaration: not a medical device, not for medical use</li>
+          </ul>
+
+          <h2 id="s8">8. Information Security Program for Children's Data</h2>
+
+          <p>Even though Yumisa is not directed at children under 16, we maintain a written information security program reasonably designed to protect any personal information of users that may inadvertently be collected from children, including:</p>
+          <ul>
+            <li>Encryption of data in transit (TLS 1.2+) and at rest (AES-256)</li>
+            <li>Access controls and audit logs</li>
+            <li>Regular security assessments</li>
+            <li>Procedures for prompt deletion upon discovery</li>
+          </ul>
+
+          <h2 id="s9">9. Data Retention</h2>
+
+          <p>We do not knowingly retain personal information of users below our age threshold. Where we have collected such data inadvertently, we delete it as soon as reasonably necessary to fulfil the purpose for which it was collected (typically immediately upon discovery).</p>
+
+          <h2 id="s10">10. Safe Harbor</h2>
+
+          <p>"Sunction" Limited Liability Partnership is <strong>not currently</strong> a member of an FTC-approved COPPA Safe Harbor program. We voluntarily comply with COPPA requirements through our internal Children's Privacy Program, which includes the measures described in this policy (age gating, data minimisation, security controls, deletion procedures, and parental rights support).</p>
+
+          <p>We will reassess membership in a Safe Harbor program (e.g., kidSAFE, PRIVO, iKeepSafe, ESRB Privacy Certified) if our product expands or if we begin to knowingly serve users below our age threshold.</p>
+
+          <h2 id="s11">11. Complaints and Regulator Inquiries</h2>
+
+          <p>Parents and regulators with concerns may contact us through any channel listed in Section 13. Internally, we route children's-privacy complaints to our DPO and document each incident in our Children's Privacy Incident Log.</p>
+
+          <h2 id="s12">12. Updates</h2>
+
+          <p>We will update this policy if our practices regarding children's data change, or to reflect changes in COPPA or related laws. Material changes will be reflected in the "Last Updated" date at the top.</p>
+
+          <h2 id="s13">13. Contact</h2>
+
+          <p>For questions about our COPPA compliance:</p>
+          <ul>
+            <li><strong>Email:</strong> <a href="mailto:support@bureau613.com">support@bureau613.com</a></li>
+            <li><strong>Postal address:</strong> 133/1 Gagarin Avenue, Office 104, Bostandyk District, Almaty 050060, Republic of Kazakhstan</li>
+          </ul>
+
+          <p>For FTC COPPA inquiries: <a href="https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa">https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__col">
+        <strong class="footer__heading">Yumisa</strong>
+        <span class="footer__text">AI calorie tracker</span>
+        <a href="mailto:support@bureau613.com" class="footer__link">support@bureau613.com</a>
+      </div>
+      <div class="footer__col">
+        <strong class="footer__heading">Links</strong>
+        <a href="privacy-policy.html" class="footer__link">Privacy Policy</a>
+        <a href="terms-of-use.html" class="footer__link">Terms of Use</a>
+        <a href="coppa-policy.html" class="footer__link">COPPA Policy</a>
+        <a href="index.html" class="footer__link">Home</a>
+      </div>
+    </div>
+    <div class="container">
+      <p class="footer__copy">&copy; 2026 Bureau 613. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
