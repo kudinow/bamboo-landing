@@ -1257,3 +1257,68 @@ a {
     padding: 18px 22px;
   }
 }
+
+/* === Support page contact card === */
+.support__contact {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 24px 28px;
+  margin: 8px 0 40px;
+}
+
+.support__contact-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 640px) {
+  .support__contact-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+}
+
+.support__contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.support__contact-label {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.support__contact-value {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text);
+  line-height: 1.45;
+  word-break: break-word;
+}
+
+a.support__contact-value {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a.support__contact-value:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.support__contact-note {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border);
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
